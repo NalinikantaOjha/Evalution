@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SprintEvalution</string>
+    <string name="welcome">WELCOME</string>
+    <string name="masai1">Masai school is a 21st century coding school that cares about you!</string>
+    <string name="signin">sign in</string>
+    <string name="signup">sign up</string>
+    <string name="create">Create an Account</string>
+    <string name="welcomeback">Welcome back</string>
+    <string name="continuetosign">Contune to sign up</string>
+    <string name="Name">Name</string>
+    <string name="EnterName">Enter your Name</string>
+    <string name="Email">Email</string>
+    <string name="EnterEmail">Enter your Email</string>
+    <string name="Password">Password</string>
+    <string name="EnterPassword">Enter your Password</string>
+    <string name="Haveanaccount">Have an Account ?</string>
+    <string name="forgotpass">Forgot Password </string>
+    <string name="Dontaveanaccount">Do not Have an Account </string>
+</resources>

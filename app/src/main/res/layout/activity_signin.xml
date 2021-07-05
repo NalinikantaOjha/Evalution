@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+    <View
+        android:id="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_200"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/red"
+        app:layout_constraintTop_toTopOf="parent"></View>
+    <ImageView
+        android:layout_width="@dimen/dp_20"
+        android:layout_height="@dimen/dp_20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="@dimen/dp_20"
+        android:background="@drawable/ic_vector__1_">
+
+
+    </ImageView>
+    <TextView
+        style="@style/textview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/signin"
+        android:textSize="@dimen/dp_20"
+        android:layout_margin="@dimen/dp_20"
+        android:textColor="@color/white">
+
+    </TextView>
+    <TextView
+        android:id="@+id/t2"
+        style="@style/textview"
+        app:layout_constraintTop_toBottomOf="@id/v1"
+        android:layout_margin="@dimen/dp_20"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/welcomeback"
+        android:textColor="@color/red"
+        android:textSize="@dimen/dp_20"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:id="@+id/t1"
+        style="@style/textview"
+        app:layout_constraintTop_toBottomOf="@id/t2"
+        android:layout_marginLeft="@dimen/dp_10"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/continuetosign"
+        android:textColor="@color/red"
+        android:textSize="@dimen/dp_20"
+        >
+
+    </TextView>
+    <TextView
+        android:id="@+id/t3"
+        style="@style/textview"
+        app:layout_constraintTop_toBottomOf="@id/t1"
+        android:layout_margin="@dimen/dp_30"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/Name"
+
+        >
+
+    </TextView>
+    <EditText
+        android:id="@+id/etdN2"
+        style="@style/Edittext"
+        android:hint="@string/EnterName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/t3">
+
+    </EditText>
+    <TextView
+        android:id="@+id/t4"
+        style="@style/textview"
+        app:layout_constraintTop_toBottomOf="@id/etdN2"
+        android:layout_margin="@dimen/dp_30"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/Password"
+
+        >
+
+    </TextView>
+    <EditText
+        android:id="@+id/etdP2"
+        style="@style/Edittext"
+        android:hint="@string/EnterPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/t4">
+
+    </EditText>
+    <TextView
+        android:id="@+id/textPASS"
+       style="@style/textview"
+        app:layout_constraintTop_toBottomOf="@id/etdP2"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/forgotpass"
+        android:textSize="@dimen/dp_20"
+        android:layout_margin="@dimen/dp_20"
+        android:textColor="@color/red"
+        >
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnsignin"
+        style="@style/button"
+        android:layout_margin="0dp"
+        android:background="@color/red"
+        android:text="@string/signin"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/textPASS"
+        app:layout_constraintStart_toStartOf="parent"></Button>
+    <TextView
+        android:id="@+id/t6"
+        style="@style/textview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnsignin"
+        android:layout_margin="@dimen/dp_20"
+        android:text="@string/Dontaveanaccount"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="@dimen/dp_20"></TextView>
+    <TextView
+        style="@style/textview"
+        android:id="@+id/textsignup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/t6"
+        android:layout_margin="@dimen/dp_20"
+        android:text="@string/signup"
+        android:textColor="@color/red"
+        android:textSize="@dimen/dp_20">
+
+
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
